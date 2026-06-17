@@ -22,7 +22,7 @@
  * Size/layout come from ordinary CSS (width/height or aspect-ratio).
  */
 (() => {
-  const STATE_FILE = '.video-slots.state.json';
+  const STATE_FILE = 'video-slots.state.json';
   const ACCEPT = ['video/mp4', 'video/webm', 'video/ogg', 'video/quicktime'];
   const MAX_BYTES = 50 * 1024 * 1024; // 50MB raw — keep the sidecar writable
 
